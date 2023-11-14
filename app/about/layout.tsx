@@ -2,7 +2,7 @@ import '@/app/ui/global.css';
 import { lusitana } from '@/app/ui/fonts';
 
 
-export default function aboutLayout({
+export default function AboutLayout({
     children,
 }: {
     children: React.ReactNode;
