@@ -4,8 +4,11 @@ export default function About() {
     }
     return (
         <>
-            <div>Welcome! Today is {getDate()}</div>
-            {/* No errors */}
+            <article>
+                <h1>Daily post of {getDate()}</h1>
+                <div>Welcome! Today is a beautiful day</div>
+                {/* No errors */}
+            </article>
         </>
     )
 }

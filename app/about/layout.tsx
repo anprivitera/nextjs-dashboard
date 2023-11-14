@@ -10,7 +10,10 @@ export default function AboutLayout({
     return (
 
         <>
+        <article>
+            <h1></h1>
             <div className={`${lusitana.className} antialiased `}>{children}</div>
+        </article>
             {/* No errors */}
         </>
 
