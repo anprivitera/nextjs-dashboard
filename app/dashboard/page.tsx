@@ -18,7 +18,7 @@ export default async function Page() {
                 {/* <Card title="Total Customers" value={numberofCustomers} type="customers" /> */}
             </div>
             <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
-                {/* <RevenueChart revenue={revenue} /> */}
+                <RevenueChart revenue={revenue} />
                 {/* <LatestInvoices invoices={latestInvoices} /> */}
             </div>
         </main>
